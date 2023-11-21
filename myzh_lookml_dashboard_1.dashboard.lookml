@@ -1,11 +1,11 @@
-- dashboard: myzh_first_looker_dashboard
-  title: myzh_first_looker_dashboard
+- dashboard: myzh_lookml_dashboard
+  title: myzh_lookml_dashboard
   layout: newspaper
   preferred_viewer: dashboards-next
   preferred_slug: Lw0DpBllu6KynvsNpdZ36r
   elements:
-  - title: myzh_first_looker_dashboard
-    name: myzh_first_looker_dashboard
+  - title: myzh_lookml_dashboard_element1
+    name: myzh_lookml_dashboard_element1
     model: myzh_test_looker_project
     explore: imagen_response
     type: single_value
@@ -27,8 +27,8 @@
     col:
     width:
     height:
-  - title: New Tile
-    name: New Tile
+  - title: myzh_lookml_dashboard_element2
+    name: myzh_lookml_dashboard_element2
     model: myzh_test_looker_project
     explore: variant_attributes
     type: looker_line
@@ -80,8 +80,8 @@
     col:
     width:
     height:
-  - title: New Tile
-    name: New Tile (2)
+  - title: myzh_lookml_dashboard_element3
+    name: myzh_lookml_dashboard_element3
     model: system__activity
     explore: dashboard
     type: single_value
@@ -105,8 +105,8 @@
     col:
     width:
     height:
-  - title: New Tile
-    name: New Tile (3)
+  - title: myzh_lookml_dashboard_element4
+    name: myzh_lookml_dashboard_element4
     model: myzh_test_looker_project
     explore: backup_imagen_response
     type: looker_bar
