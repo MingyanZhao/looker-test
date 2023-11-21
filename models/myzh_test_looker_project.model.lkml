@@ -3,6 +3,9 @@ connection: "bq_argolis"
 # include all the views
 include: "/views/**/*.view.lkml"
 
+# include LookML dashboards
+include: "/Dashboards/**/*.dashboard.lookml"
+
 datagroup: myzh_test_looker_project_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
